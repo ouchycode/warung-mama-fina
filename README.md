@@ -35,3 +35,37 @@
 ```bash
 git clone https://github.com/kevin-ardiansyah/warung-mama-fina.git
 cd warung-mama-fina
+```
+
+### 2. Install dependency Laravel dan Tailwind
+
+```bash
+composer install
+npm install
+npm run dev
+```
+
+### 3. Setup environment dan generate key
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+### 4. Konfigurasi database (di file .env)
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=warung_mamafina
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### 5. (Opsional) Jalankan migrasi database
+```bash
+php artisan migrate
+```
+
+### 6. Jalankan server lokal
+```bash
+php artisan serve
