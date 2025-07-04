@@ -22,25 +22,16 @@
 - Katalog Produk
 - Detail Produk
 - Form Kontak
-- Panel Admin 
-- Autentikasi Pengguna 
+- Panel Admin
+- Autentikasi Pengguna
 - Desain ringan & responsif
+
+---
 
 ## ⚙️ Cara Menjalankan Proyek Secara Lokal
 
-### 1. Clone repository
+### 1. Clone repository & masuk folder project
 
 ```bash
 git clone https://github.com/kevin-ardiansyah/warung-mama-fina.git
 cd warung-mama-fina
-
-composer install
-
-npm install
-npm run dev
-
-cp .env.example .env
-php artisan key:generate
-
-php artisan serve
-
